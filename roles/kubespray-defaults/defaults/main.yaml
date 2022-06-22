@@ -369,7 +369,7 @@ containerd_cfg_dir: "/etc/containerd"
 
 # Settings for containerized control plane (etcd/kubelet/secrets)
 # deployment type for legacy etcd mode
-etcd_deployment_type: host
+etcd_deployment_type: docker
 cert_management: script
 
 # Make a copy of kubeconfig on the host that runs Ansible in {{ inventory_dir }}/artifacts
